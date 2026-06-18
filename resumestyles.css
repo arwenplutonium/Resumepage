@@ -1,0 +1,28 @@
+.section{
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid green;
+    padding-bottom: 20px;
+    border: 2px solid green;
+    border-radius: 8px;
+}
+.label{
+    width: 200px;
+}
+
+.content{
+    flex: 1;
+}
+
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: green;
+}
+
+h1, h2, h3{
+    text-shadow: 0 0 8px green;
+}
